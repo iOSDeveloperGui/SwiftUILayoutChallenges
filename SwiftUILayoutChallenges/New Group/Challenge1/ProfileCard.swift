@@ -17,7 +17,7 @@
 import Foundation
 import SwiftUI
 
-struct CardComponent: View {
+struct ProfileCard: View {
     var body: some View {
         HStack{
             Image("profile")
@@ -59,6 +59,6 @@ struct CardComponent: View {
 }
 
 #Preview {
-    CardComponent()
+    ProfileCard()
         .preferredColorScheme(.dark)
 }

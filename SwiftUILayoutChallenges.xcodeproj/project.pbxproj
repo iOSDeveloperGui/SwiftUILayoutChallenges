@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042FFFEA2EC198A600996C13 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FFFE92EC198A600996C13 /* TaskModel.swift */; };
+		042FFFEE2EC19A1B00996C13 /* CustomProgressBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FFFED2EC19A1B00996C13 /* CustomProgressBarComponent.swift */; };
+		042FFFF02EC19C4B00996C13 /* TaskRowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FFFEF2EC19C4B00996C13 /* TaskRowComponent.swift */; };
+		042FFFF22EC19E3700996C13 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FFFF12EC19E3700996C13 /* DashboardView.swift */; };
 		04AE124A2EC04FF00098BB65 /* SwiftUILayoutChallengesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE12492EC04FF00098BB65 /* SwiftUILayoutChallengesApp.swift */; };
 		04AE124C2EC04FF00098BB65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE124B2EC04FF00098BB65 /* ContentView.swift */; };
 		04AE124E2EC04FF20098BB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE124D2EC04FF20098BB65 /* Assets.xcassets */; };
 		04AE12512EC04FF20098BB65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE12502EC04FF20098BB65 /* Preview Assets.xcassets */; };
-		04AE12782EC050A50098BB65 /* CardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE12772EC050A50098BB65 /* CardComponent.swift */; };
+		04AE12782EC050A50098BB65 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE12772EC050A50098BB65 /* ProfileCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042FFFE92EC198A600996C13 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		042FFFED2EC19A1B00996C13 /* CustomProgressBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBarComponent.swift; sourceTree = "<group>"; };
+		042FFFEF2EC19C4B00996C13 /* TaskRowComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowComponent.swift; sourceTree = "<group>"; };
+		042FFFF12EC19E3700996C13 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		04AE12462EC04FF00098BB65 /* SwiftUILayoutChallenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILayoutChallenges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE12492EC04FF00098BB65 /* SwiftUILayoutChallengesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILayoutChallengesApp.swift; sourceTree = "<group>"; };
 		04AE124B2EC04FF00098BB65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,7 +47,7 @@
 		04AE12502EC04FF20098BB65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04AE12562EC04FF20098BB65 /* SwiftUILayoutChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILayoutChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE12602EC04FF20098BB65 /* SwiftUILayoutChallengesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILayoutChallengesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04AE12772EC050A50098BB65 /* CardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardComponent.swift; sourceTree = "<group>"; };
+		04AE12772EC050A50098BB65 /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042FFFE72EC1973500996C13 /* Challenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				042FFFF12EC19E3700996C13 /* DashboardView.swift */,
+			);
+			path = Challenge2;
+			sourceTree = "<group>";
+		};
+		042FFFE82EC1987D00996C13 /* ChallengeModels */ = {
+			isa = PBXGroup;
+			children = (
+				042FFFE92EC198A600996C13 /* TaskModel.swift */,
+			);
+			path = ChallengeModels;
+			sourceTree = "<group>";
+		};
+		042FFFEB2EC199F400996C13 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				042FFFEC2EC19A0000996C13 /* Challenge2Components */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		042FFFEC2EC19A0000996C13 /* Challenge2Components */ = {
+			isa = PBXGroup;
+			children = (
+				042FFFED2EC19A1B00996C13 /* CustomProgressBarComponent.swift */,
+				042FFFEF2EC19C4B00996C13 /* TaskRowComponent.swift */,
+			);
+			path = Challenge2Components;
+			sourceTree = "<group>";
+		};
 		04AE123D2EC04FF00098BB65 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +129,9 @@
 		04AE12482EC04FF00098BB65 /* SwiftUILayoutChallenges */ = {
 			isa = PBXGroup;
 			children = (
-				04AE12732EC050180098BB65 /* Components */,
+				042FFFEB2EC199F400996C13 /* Components */,
+				042FFFE82EC1987D00996C13 /* ChallengeModels */,
+				04AE12732EC050180098BB65 /* ChallengesViews */,
 				04AE12492EC04FF00098BB65 /* SwiftUILayoutChallengesApp.swift */,
 				04AE124B2EC04FF00098BB65 /* ContentView.swift */,
 				04AE124D2EC04FF20098BB65 /* Assets.xcassets */,
@@ -105,19 +148,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		04AE12732EC050180098BB65 /* Components */ = {
+		04AE12732EC050180098BB65 /* ChallengesViews */ = {
 			isa = PBXGroup;
 			children = (
+				042FFFE72EC1973500996C13 /* Challenge2 */,
 				04AE12792EC050A80098BB65 /* Challenge1 */,
 			);
-			name = Components;
+			name = ChallengesViews;
 			path = "New Group";
 			sourceTree = "<group>";
 		};
 		04AE12792EC050A80098BB65 /* Challenge1 */ = {
 			isa = PBXGroup;
 			children = (
-				04AE12772EC050A50098BB65 /* CardComponent.swift */,
+				04AE12772EC050A50098BB65 /* ProfileCard.swift */,
 			);
 			path = Challenge1;
 			sourceTree = "<group>";
@@ -252,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042FFFEA2EC198A600996C13 /* TaskModel.swift in Sources */,
 				04AE124C2EC04FF00098BB65 /* ContentView.swift in Sources */,
 				04AE124A2EC04FF00098BB65 /* SwiftUILayoutChallengesApp.swift in Sources */,
-				04AE12782EC050A50098BB65 /* CardComponent.swift in Sources */,
+				042FFFF22EC19E3700996C13 /* DashboardView.swift in Sources */,
+				042FFFF02EC19C4B00996C13 /* TaskRowComponent.swift in Sources */,
+				042FFFEE2EC19A1B00996C13 /* CustomProgressBarComponent.swift in Sources */,
+				04AE12782EC050A50098BB65 /* ProfileCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
