@@ -133,7 +133,7 @@
 			children = (
 				042FFFEB2EC199F400996C13 /* Components */,
 				042FFFE82EC1987D00996C13 /* ChallengeModels */,
-				04AE12732EC050180098BB65 /* ChallengesViews */,
+				04FA0AC72EC2E82700096A07 /* Views */,
 				04AE12492EC04FF00098BB65 /* SwiftUILayoutChallengesApp.swift */,
 				04AE124B2EC04FF00098BB65 /* ContentView.swift */,
 				04AE124D2EC04FF20098BB65 /* Assets.xcassets */,
@@ -150,17 +150,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		04AE12732EC050180098BB65 /* ChallengesViews */ = {
-			isa = PBXGroup;
-			children = (
-				04FA0AC42EC2E42D00096A07 /* ShapesLayout */,
-				042FFFE72EC1973500996C13 /* DashboardView */,
-				04AE12792EC050A80098BB65 /* ProfileCard */,
-			);
-			name = ChallengesViews;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		04AE12792EC050A80098BB65 /* ProfileCard */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +164,16 @@
 				04FA0AC52EC2E47000096A07 /* ShapesLayout.swift */,
 			);
 			path = ShapesLayout;
+			sourceTree = "<group>";
+		};
+		04FA0AC72EC2E82700096A07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04FA0AC42EC2E42D00096A07 /* ShapesLayout */,
+				042FFFE72EC1973500996C13 /* DashboardView */,
+				04AE12792EC050A80098BB65 /* ProfileCard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
