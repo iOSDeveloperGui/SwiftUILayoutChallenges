@@ -16,6 +16,7 @@
 		04AE124E2EC04FF20098BB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE124D2EC04FF20098BB65 /* Assets.xcassets */; };
 		04AE12512EC04FF20098BB65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE12502EC04FF20098BB65 /* Preview Assets.xcassets */; };
 		04AE12782EC050A50098BB65 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE12772EC050A50098BB65 /* ProfileCard.swift */; };
+		04FA0AC62EC2E47000096A07 /* ShapesLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA0AC52EC2E47000096A07 /* ShapesLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		04AE12562EC04FF20098BB65 /* SwiftUILayoutChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILayoutChallengesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE12602EC04FF20098BB65 /* SwiftUILayoutChallengesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILayoutChallengesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AE12772EC050A50098BB65 /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
+		04FA0AC52EC2E47000096A07 /* ShapesLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +77,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		042FFFE72EC1973500996C13 /* Challenge2 */ = {
+		042FFFE72EC1973500996C13 /* DashboardView */ = {
 			isa = PBXGroup;
 			children = (
 				042FFFF12EC19E3700996C13 /* DashboardView.swift */,
 			);
-			path = Challenge2;
+			path = DashboardView;
 			sourceTree = "<group>";
 		};
 		042FFFE82EC1987D00996C13 /* ChallengeModels */ = {
@@ -151,19 +153,28 @@
 		04AE12732EC050180098BB65 /* ChallengesViews */ = {
 			isa = PBXGroup;
 			children = (
-				042FFFE72EC1973500996C13 /* Challenge2 */,
-				04AE12792EC050A80098BB65 /* Challenge1 */,
+				04FA0AC42EC2E42D00096A07 /* ShapesLayout */,
+				042FFFE72EC1973500996C13 /* DashboardView */,
+				04AE12792EC050A80098BB65 /* ProfileCard */,
 			);
 			name = ChallengesViews;
 			path = "New Group";
 			sourceTree = "<group>";
 		};
-		04AE12792EC050A80098BB65 /* Challenge1 */ = {
+		04AE12792EC050A80098BB65 /* ProfileCard */ = {
 			isa = PBXGroup;
 			children = (
 				04AE12772EC050A50098BB65 /* ProfileCard.swift */,
 			);
-			path = Challenge1;
+			path = ProfileCard;
+			sourceTree = "<group>";
+		};
+		04FA0AC42EC2E42D00096A07 /* ShapesLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04FA0AC52EC2E47000096A07 /* ShapesLayout.swift */,
+			);
+			path = ShapesLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 				042FFFEA2EC198A600996C13 /* TaskModel.swift in Sources */,
 				04AE124C2EC04FF00098BB65 /* ContentView.swift in Sources */,
 				04AE124A2EC04FF00098BB65 /* SwiftUILayoutChallengesApp.swift in Sources */,
+				04FA0AC62EC2E47000096A07 /* ShapesLayout.swift in Sources */,
 				042FFFF22EC19E3700996C13 /* DashboardView.swift in Sources */,
 				042FFFF02EC19C4B00996C13 /* TaskRowComponent.swift in Sources */,
 				042FFFEE2EC19A1B00996C13 /* CustomProgressBarComponent.swift in Sources */,
